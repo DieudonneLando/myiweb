@@ -1,0 +1,139 @@
+
+html,
+.bg,
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0 !important;
+    padding: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section {
+    background-color: #ffffff;
+    width: 95%;
+    height: 95%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.09);
+    height: 5%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leds {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.led1 {
+    width: 10px;
+    height: 10px;
+    background: #ef5350;
+    border-radius: 100px;
+}
+
+.led2 {
+    width: 10px;
+    height: 10px;
+    background: #ffd600;
+    border-radius: 100px;    
+}
+
+.led3 {
+    width: 10px;
+    height: 10px;
+    background: #64ffda;
+    border-radius: 100px;
+}
+
+.line{
+    width: 50px;
+    height: 8px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.10);
+    margin-right: 2%;
+}
+
+.middle-div{
+    height: 100%;
+    width: 100%!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.cube{
+    background-color: rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    margin: 50px;
+    transition: 0.5s;
+    color: black!important;
+    outline: none;
+}
+
+a {
+    outline: none;
+}
+
+.cube:hover{
+    box-shadow: 0px 9px 5px 6px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+}
+
+.row-centered {
+    display: block;
+    width: 100%;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.011);
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.header-avatar{
+    display: flex;
+    align-items: flex-start;
+}
+
+.mynames{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+.img1{
+    width: 40px!important;
+    border-radius: 0px!important;
+    box-shadow: 0px 11px 7px 3px rgba(0, 0, 0, 0.19);
+}
+
+.avatar img{
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: 0px 11px 7px 3px rgba(0, 0, 0, 0.19);
+}
