@@ -93,7 +93,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 230px;
-    margin: 50px;
+    margin: 20px;
     transition: 0.5s;
     color: black !important;
     outline: none;
@@ -109,8 +109,11 @@ a {
 }
 
 .row-centered {
-    display: block;
     width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .avatar {
