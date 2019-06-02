@@ -99,6 +99,19 @@ body {
     outline: none;
 }
 
+.native-cube {
+    background-color: rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    margin: 20px;
+    transition: 0.5s;
+    color: black !important;
+    outline: none;
+}
+
 a {
     outline: none;
 }
@@ -109,6 +122,14 @@ a {
 }
 
 .row-centered {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.native-centered {
     width: 100%;
     text-align: center;
     display: flex;
@@ -145,4 +166,107 @@ a {
     width: 120px;
     border-radius: 5px;
     box-shadow: 0px 11px 7px 3px rgba(0, 0, 0, 0.19);
+}
+
+.main-cards {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-cards span {
+    background-color: rgba(0, 0, 0, 0.048);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    width: 80% !important;
+    margin: 20px;
+    transition: 0.5s;
+    color: black !important;
+    outline: none;
+}
+
+.main-cards span img {
+    width: 50%;
+}
+
+.main-cards span h1 {
+    font-weight: bolder;
+}
+
+.all-repo-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    .main-cards span {
+        width: 40% !important;
+    }
+
+    .main-cards span h1 {
+        font-size: 45px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .main-cards span {
+        width: 40% !important;
+    }
+
+    .main-cards span h1 {
+        font-size: 45px !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-cards span {
+        width: 40% !important;
+    }
+
+    .main-cards span h1 {
+        font-size: 45px !important;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .main-cards span {
+        width: 55% !important;
+    }
+
+    .main-cards span h1 {
+        font-size: 30px !important;
+        ;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+    .main-cards span {
+        width: 55% !important;
+        height: 200px;
+    }
+
+    .main-cards span h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-cards span {
+        width: 80%;
+        height: 200px;
+    }
+
+    .main-cards span h1 {
+        font-size: 25px;
+    }
 }
