@@ -1,6 +1,7 @@
 $(document).ready(function () {
     let e = (new Date).getHours(),
         t = e;
+    t = e == 18 ? 19 : null;
     $(".bg").css("background-image", "url('./assets/imgs/" + t + ".jpg')"), $("");
     let o = "";
     $.ajax({
