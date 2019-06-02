@@ -146,6 +146,7 @@ a {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.011);
     border-radius: 5px;
+    margin-bottom: 15%;
 }
 
 .header-avatar {
